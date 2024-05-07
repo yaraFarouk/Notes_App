@@ -10,7 +10,7 @@ class NotesViewBody extends StatelessWidget {
     return const Column(
       children: [
         SizedBox(
-          height: 60,
+          height: 70,
         ),
         CustomAppBar(),
         Expanded(child: NotesListView())
