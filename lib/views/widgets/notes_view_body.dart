@@ -18,6 +18,9 @@ class NotesViewBody extends StatelessWidget {
             title: 'Notes',
             icon: Icons.search,
           ),
+          SizedBox(
+            height: 20,
+          ),
           Expanded(child: NotesListView())
         ],
       ),
